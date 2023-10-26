@@ -1,0 +1,20 @@
+- read in csv file
+    - readFile Sync(__dirname + '/the_choices_file.csv', 'utf8')
+- first split the content read from the file into array
+    - we get array of lines split by lines
+- iterate over our array of lines and split each line into an array
+    -an array within an array (2d, grid)
+- start outputting each split line as the formatted question
+- prompt for input(a,b,c,d,)
+    - reprompt if we do not get valid input
+- once we get a valid input
+    #
+    - decide what to add to a new array based on the letter inputted
+    #
+    - use an if statement to map the choice to the array index and push
+    the selected word from the array to the new array
+- read in story file
+- replace the number/placeholders in the story string with teh corresponding selected words,
+make sure words are upper case
+- display the story string
+

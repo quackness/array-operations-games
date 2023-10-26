@@ -1,0 +1,21 @@
+{
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "files.autoSave": "afterDelay",
+                "files.exclude": {
+                    "**/.*": true,
+                    "**/*.json": true,
+                    "**/node_modules": true
+                },
+                "files.trimTrailingWhitespace": true,
+                "files.watcherExclude": {
+                    "**/.git/objects/**": true,
+                    "**/.git/subtree-cache/**": true,
+                    "**/node_modules/*/**": true
+                }
+            }
+        }
+    },
+    "postCreateCommand": "npm i readline-sync"
+}
